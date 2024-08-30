@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    display: grid;
+}
+
+header {
+    background: #1DDE20;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: center;
+    height: 60px;
+    padding: 10px;
+
+}
+
+
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.imagem_Israel {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    border: 5px solid #6DF7C5;
+    border-radius: 100%;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    width: 200px;
+    height: 180px;
+    background-color: #aaa;
+    overflow: hidden;
+
+}
+
+.principal {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    background-color: #1DDEA3;
+    border: solid: 1px;
+    border-radius: 50px 5px;
+
+
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #1DDE20;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+}
+
+
+a,
+a:link {
+    text-decoration: double;
+    padding: 8px 16px;
+    border: double 1px;
+}
+
+li {
+    float: left;
+}
+
+a:hover {
+    background-color: #1DDEA3;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: blue;;
+    /* Remove espaçamento entre bordas das células */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    /* Borda de 1px com cor cinza clara */
+    padding: 8px;
+    /* Espaçamento interno das células */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+th {
+    background-color: #f4f4f4;
+    /* Cor de fundo cinza clara para o cabeçalho */
+    font-weight: bold;
+    /* Fonte em negrito para o cabeçalho */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* Cor de fundo alternada para linhas pares */
+}
+
+tr:hover {
+    background-color: #e2e2e2;
+    /* Cor de fundo ao passar o mouse sobre a linha */
+
+    flood-color: #1DDEA3;
